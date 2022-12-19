@@ -11,6 +11,7 @@
 		1C94EB272950CEDB0096D550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94EB262950CEDB0096D550 /* ContentView.swift */; };
 		1C94EB292950CEE20096D550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C94EB282950CEE20096D550 /* Assets.xcassets */; };
 		1C94EB2C2950CEE20096D550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C94EB2B2950CEE20096D550 /* Preview Assets.xcassets */; };
+		1C94EB332950D5830096D550 /* Kingthings Christmas 2.2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C94EB322950D5830096D550 /* Kingthings Christmas 2.2.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		1C94EB262950CEDB0096D550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C94EB282950CEE20096D550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C94EB2B2950CEE20096D550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C94EB322950D5830096D550 /* Kingthings Christmas 2.2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kingthings Christmas 2.2.ttf"; sourceTree = "<group>"; };
+		1C94EB342950D5F40096D550 /* New-Year-Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "New-Year-Countdown-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		1C94EB232950CEDB0096D550 /* New Year Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				1C94EB342950D5F40096D550 /* New-Year-Countdown-Info.plist */,
 				1C94EB242950CEDB0096D550 /* New_Year_CountdownApp.swift */,
 				1C94EB262950CEDB0096D550 /* ContentView.swift */,
 				1C94EB282950CEE20096D550 /* Assets.xcassets */,
+				1C94EB322950D5830096D550 /* Kingthings Christmas 2.2.ttf */,
 				1C94EB2A2950CEE20096D550 /* Preview Content */,
 			);
 			path = "New Year Countdown";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C94EB2C2950CEE20096D550 /* Preview Assets.xcassets in Resources */,
+				1C94EB332950D5830096D550 /* Kingthings Christmas 2.2.ttf in Resources */,
 				1C94EB292950CEE20096D550 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +276,13 @@
 				DEVELOPMENT_TEAM = JT42GL2HMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New-Year-Countdown-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +307,13 @@
 				DEVELOPMENT_TEAM = JT42GL2HMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New-Year-Countdown-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
